@@ -1,0 +1,6 @@
+<p>content works!</p>
+<div style="width: 50%">
+  
+  <ckeditor (change)="onChange($event)" [config]="{ toolbar: [ 'bold', 'italic' ] }" [editor]="Editor" data="<b>Hello, world!</b>"></ckeditor>
+  <button type="button" (click)="getContent()">Show context</button>
+</div>
